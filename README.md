@@ -38,10 +38,10 @@ npm run build
 
 ## 部署
 开发环境
-1. 打开jenkins http://192.168.3.128:8080/jenkins/view/nodejs/, `帐号 wjh, 密码 cc#dd%2`,
+1. 打开jenkins http://192.168.3.128:8080/jenkins/view/nodejs/, `帐号 wjh, 密码 ***`,
 2. 找到项目dev_edit，点击`立即构建`按钮执行build命令，代码即会被部署到开发环境 dev.edit.vcg.com。
 
 正式环境
 1. 找到项目prod_edit，点击`立即构建`按钮执行build命令
-2. 等build完成约5分钟后，打开http://101.201.70.24:8080/jenkins/ `帐号 test， 密码 cc#ddJJa`
+2. 等build完成约5分钟后，打开http://101.201.70.24:8080/jenkins/ `帐号 test， 密码 ***`
 3. 点击`立即构建`按钮，完成线上部署
