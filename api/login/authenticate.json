@@ -1,0 +1,9 @@
+{
+    "code": 200,
+    "data":{
+        "user":{
+            "userName": "tonglaiz",
+            "email": "tonglaiz@163.com"
+        }
+    }
+}

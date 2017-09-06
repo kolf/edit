@@ -1,0 +1,33 @@
+{
+  "code": 200,
+  "success": true,
+  "message": "",
+  "error": "",
+  "type": "",
+  "fun": "",
+  "data": {
+    "scrollList": {
+      "list": [
+        {
+          "sequence" : "1",
+          "name": "111",
+          "link": "ww.abc.com",
+          "date": "2016-12-31",
+          "markKeyWord" : true
+        },{
+          "sequence" : "2",
+          "name": "222",
+          "link": "ww.abc.com",
+          "date": "2016-12-31",
+          "markKeyWord" : true
+        },{
+          "sequence" : "3",
+          "name": "333",
+          "link": "ww.abc.com",
+          "date": "2016-12-31",
+          "markKeyWord" : true
+        }
+      ]
+    }
+  }
+}

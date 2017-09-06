@@ -1,0 +1,7 @@
+/node_modules/
+!/web/*.*
+npm-debug.log
+.idea
+*.bak
+.cache
+.vscode

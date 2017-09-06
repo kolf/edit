@@ -1,0 +1,23 @@
+.cascader{
+    &-box{
+        position: relative;
+        height: 30px;
+        // background-color: red;
+        &-input{
+            border: 1px solid #ccc;
+            padding: 4px;
+            height: 28px;
+            line-height: 18px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+        }
+        .ant-cascader-picker{
+            opacity: 0
+        }
+    }
+}

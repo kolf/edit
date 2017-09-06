@@ -1,0 +1,12 @@
+{
+    "code": 200,
+    "message": null,
+    "error": null,
+    "type": 0,
+    "fun": null,
+    "data": {
+        "id": 123,
+        "name": "你说我叫什么名字呢。",
+        "type": "类型1"
+    }
+}

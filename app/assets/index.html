@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>index</title>
+    <script src="https://cdn.bootcss.com/vue/2.4.2/vue.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html,
+        body {
+            height: 100%
+        }
+
+        body {
+            background: #e8e8e8
+        }
+
+        .form-box {
+            padding: 100px 10px;
+            margin: 60px 0;
+            background: #fff;
+            box-shadow: 0 0 20px #ccc
+        }
+
+        .form-control,
+        .btn,
+        .input-group-addon {
+            border-radius: 2px
+        }
+    </style>
+</head>
+
+<body id="app">
+    <div class="container">
+        <div class="row form-box">
+            <div class="col-md-6 col-md-offset-3">
+                <form class="">
+                    <div class="form-group">
+                        <label for="phone">手机号</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="请输入您的手机号">
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group input-group-verify">
+                            <input type="text" class="form-control" placeholder="请输入验证码">
+                            <div class="input-group-addon">4545</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="product">币种</label>
+                        <select class="form-control">
+                            <option>请选择币种</option>
+                            <option>BTC</option>
+                            <option>EOS</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="minPrice">最低价</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">$</div>
+                            <input type="number" class="form-control" id="minPrice" placeholder="请输入最低价">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="maxPrice">最高价</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">$</div>
+                            <input type="number" class="form-control" id="maxPrice" placeholder="请输入最高价">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">确定{input}</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            input: '# hello'
+        }
+    })
+
+</script>
+</html>

@@ -1,0 +1,109 @@
+{
+  "code": 200,
+  "data": {
+    "level" : [
+        {
+        "code": 1,
+        "name": "A"
+      },
+      {
+        "code": 2,
+        "name": "B"
+      },{
+        "code": 3,
+        "name": "C"
+      },
+      {
+        "code": 4,
+        "name": "D"
+      }
+    ],
+    "brand":[{
+      "code": 1,
+      "name": "500PX"
+    },
+    {
+      "code": 2,
+      "name": "corbis"
+    }],
+    "place":[{
+      "code": 1,
+      "name": "美国"
+    },
+    {
+      "code": 2,
+      "name": "加拿大"
+    }],
+    "name":[{
+      "code": 1,
+      "name": "李雯"
+    },
+    {
+      "code": 2,
+      "name": "范冰冰"
+    }],
+    "filterMainType" :[
+      {
+        "code": 1,
+        "name": "梯台走秀"
+      },
+      {
+        "code": 2,
+        "name": "精彩瞬间"
+      },{
+        "code": 3,
+        "name": "最佳进球"
+      },
+      {
+        "code": 4,
+        "name": "最佳射手"
+      }
+    ],
+    "category" : [
+      {
+        "code": 1,
+        "name": "国内"
+      },
+      {
+        "code": 2,
+        "name": "国际"
+      },{
+        "code": 3,
+        "name": "财经"
+      },
+      {
+        "code": 4,
+        "name": "体育"
+      },
+      {
+        "code": 5,
+        "name": "娱乐"
+      },
+      {
+        "code": 6,
+        "name": "时尚"
+      },{
+        "code": 7,
+        "name": "科技"
+      },
+      {
+        "code": 8,
+        "name": "旅游"
+      }
+    ],
+    "keywords" : [
+      {
+        "name" : "糗事瞬间",
+        "value" : ["走秀", "摔跤", "打架", "狂笑"]
+      },
+      {
+        "name" : "啊啊啊",
+        "value" : ["哈哈", "呵呵", "呼呼", "嘻嘻"]
+      }
+    ]
+  },
+  "message": null,
+  "error": null,
+  "type": 0,
+  "fun": null
+}

@@ -1,0 +1,30 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "id": 1,
+            "receiveTime": "2016-06-22 09:31:26",
+            "subject": "测试数据1--主题",
+            "context": "编审内容需重新确认发布",
+            "user": "邓超"
+        },
+        {
+            "id": 2,
+            "receiveTime": "2016-06-22 09:31:26",
+            "subject": "测试数据2--主题",
+            "context": "编审内容需重新确认发布",
+            "user": "孙俪"
+        },
+        {
+            "id": 3,
+            "receiveTime": "2016-06-22 09:31:26",
+            "subject": "测试数据3--主题",
+            "context": "编审内容需重新确认发布",
+            "user": "邓超"
+        }
+    ],
+    "message": null,
+    "error": null,
+    "type": 0,
+    "fun": null
+}

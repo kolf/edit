@@ -1,0 +1,74 @@
+{
+  "code": 200,
+  "success": true,
+  "message": "",
+  "error": "",
+  "type": "",
+  "fun": "",
+  "data": {
+    "idField" : "id",
+    "pages": 5,
+    "list": [
+      {
+        "sequence" : 1,
+        "id": 11111,
+        "name": "网站首页",
+        "lastEditTime": "2016-02-24   19:00",
+        "editor" : "aaa"
+      },
+      {
+        "sequence" : 2,
+        "id": 22222,
+        "name": "创意",
+        "lastEditTime": "2016-02-24   19:00",
+        "editor" : "bbb",
+        "children" : [
+          {
+            "sequence" : 3,
+            "id": 212121,
+            "name": "首页",
+            "lastEditTime": "2016-02-24   19:00",
+            "editor" : "bbb"
+          }
+        ]
+      },
+      {
+        "sequence" : 4,
+        "id": 33333,
+        "name": "编辑",
+        "lastEditTime": "2016-02-24   19:00",
+        "editor" : "ccc",
+        "children" : [
+          {
+            "sequence" : 5,
+            "id": 31,
+            "name": "未登录首页",
+            "lastEditTime": "2016-02-24   19:00",
+            "editor" : "ddd"
+          },
+          {
+            "sequence" : 6,
+            "id": 32,
+            "name": "已登录首页",
+            "lastEditTime": "2016-02-24   19:00",
+            "editor" : "ddd"
+          },
+          {
+            "sequence" : 7,
+            "id": 33,
+            "name": "国内频道",
+            "lastEditTime": "2016-02-24   19:00",
+            "editor" : "ddd"
+          },
+          {
+            "sequence" : 8,
+            "id": 34,
+            "name": "滚动",
+            "lastEditTime": "2016-02-24   19:00",
+            "editor" : "ddd"
+          }
+        ]
+      }
+    ]
+  }
+}

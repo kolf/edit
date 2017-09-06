@@ -1,0 +1,61 @@
+.filter ul{list-style:none;margin:0;padding:0 8px;border:1px solid #DCE8F1;border-top:none}
+.filter li{position:relative;border-bottom:1px dashed #dedede;overflow:hidden}
+.filter li:last-child{border-bottom:none}
+.filter li .body{padding:4px 100px 4px 132px}
+.filter li .expand .item{
+    height: auto;
+    max-height: 102px;
+    overflow: auto;
+}
+.filter li .foot{
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+.filter h3{
+    position: absolute;
+    left: 11px;
+    top: 13px;
+    color: #999;
+    font-size:12px;
+    margin:0;
+    padding:0
+}
+.filter label{
+    float: left;
+    margin: 9px 40px 9px 0;
+    height: 18px;
+    color: #000;
+    font-size:12px;
+}
+
+.filter .h72{min-height:72px}
+.filter .h36{min-height:36px}
+.filter .btn{margin-right:10px}
+.filter .hand:hover,.filter .here{color:#f50}
+
+.filter .words span.tag{
+    margin: 4px 8px 0 0;
+    cursor:pointer;
+    padding: 4px 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid #e8e8e8;
+    height: 24px;
+    line-height: 24px;
+    color: #666;
+    text-decoration: none;
+}
+.filter .words span.tag i{margin-left:4px;color:#ddd}
+.filter .words span.tag:hover{border-color:#f50}
+.filter .words span.tag:hover i{color:#f50}
+
+.filter .activedFilter{
+    background-color: #6fb3e0;
+    color: #fff;
+    padding: 5px 10px;
+}
+.filter .activedFilter:hover{
+    color:#fff;
+}

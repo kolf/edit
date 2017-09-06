@@ -1,0 +1,147 @@
+{
+  "code": 200,
+  "success": true,
+  "message": "",
+  "error": "",
+  "type": "",
+  "fun": "",
+  "data": {
+    "categories" : ["国内","国际","财经","体育","娱乐","时尚","科技","旅游","图表", "漫画", "历史", "肖像", "故事", "插画", "滚动", "最佳"],
+    "brands" : ["500px", "corbis", "splash", "sinoimage", "蓝牛仔"],
+    "thumbnail": {
+      "list": [
+        {
+          "title_cn": "哈哈",
+          "keyword": "aaa",
+          "onlineDate": "2016-02-24",
+          "live": true
+        }
+      ]
+    },
+    "coverPic": {
+      "list": [
+        {
+          "coverPic" : "http://pic.vcg.cn/bigimg/800bigwater/16487000/gic16487549.jpg",
+          "column": "编辑",
+          "categories": "体育",
+          "url": "aa/bb/c.d"
+        }
+      ]
+    },
+    "banner": {
+      "list": [
+        {
+          "banner" : "http://pic.vcg.cn/bigimg/800bigwater/16487000/gic16487549.jpg",
+          "title": "2016欧洲杯",
+          "link": "www.vcg.com"
+        }
+      ]
+    },
+    "manualTopic": {
+      "list": [
+        {
+          "sequence" : 1,
+          "pic" : "http://pic.vcg.cn/bigimg/800bigwater/16487000/gic16487549.jpg",
+          "title" : "2016欧洲杯",
+          "link" : "www.vcg.com"
+        },
+        {
+          "sequence" : 2,
+          "pic" : "http://pic.vcg.cn/bigimg/800bigwater/16487000/gic16487549.jpg",
+          "title" : "2016亚洲杯",
+          "link" : "www.vcg.com"
+        },
+        {
+          "sequence" : 3,
+          "pic" : "http://pic.vcg.cn/bigimg/800bigwater/16487000/gic16487549.jpg",
+          "title" : "2016非洲杯",
+          "link" : "www.vcg.com"
+        },
+        {
+          "sequence" : 4,
+          "pic" : "http://pic.vcg.cn/bigimg/800bigwater/16487000/gic16487549.jpg",
+          "title" : "2016美洲杯",
+          "link" : "www.vcg.com"
+        }
+      ]
+    },
+    "bsFetch": {
+      "list": [
+        {
+          "name" : "入库时间",
+          "content": ["2016-2-6", "2016-3-6"]
+        },
+        {
+          "name" : "分类",
+          "content": ["体育", "娱乐"]
+        },
+        {
+          "name" : "照片等级",
+          "content": ["A", "B"]
+        },
+        {
+          "name" : "品牌",
+          "content": ["500px", "corbis", "splash", "sinoimage", "蓝牛仔"]
+        },
+        {
+          "name" : "地点",
+          "content": ["美国", "加拿大", "英国", "菲律宾"]
+        },
+        {
+          "name" : "人名",
+          "content": ["李雯", "范冰冰", "李晨", "成龙"],
+          "source": "keywords"
+        },
+        {
+          "name" : "糗事瞬间",
+          "content": ["走秀", "摔跤", "打架", "狂笑"],
+          "source": "keywords"
+        }
+      ]
+    },
+    "feFilter": {
+      "list": [
+        {
+          "name" : "筛选主分类",
+          "content": ["梯台走秀", "精彩瞬间", "最佳进球", "最佳射手"],
+          "fetch": true
+        },
+        {
+          "name" : "入库时间",
+          "content": ["2016-2-6", "2016-3-6"],
+          "fetch": false
+        },
+        {
+          "name" : "分类",
+          "content": ["体育", "娱乐"],
+          "fetch": true
+        },
+        {
+          "name" : "照片等级",
+          "content": ["A", "B"],
+          "fetch": false
+        },
+        {
+          "name" : "品牌",
+          "content": ["500px", "corbis", "splash", "sinoimage"],
+          "fetch": true
+        },
+        {
+          "name" : "地点",
+          "content": ["美国", "加拿大", "英国", "菲律宾"],
+          "fetch": true
+        },
+        {
+          "name" : "人名",
+          "content": ["李雯", "范冰冰", "李晨", "成龙"],
+          "fetch": true
+        },
+        {
+          "name" : "糗事瞬间",
+          "content": ["走秀", "摔跤", "打架", "狂笑"],
+          "fetch": true
+        }
+      ]
+    }
+  }
+}

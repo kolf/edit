@@ -1,0 +1,14 @@
+{
+    "code": 200,
+    "message": null,
+    "error": null,
+    "type": 0,
+    "fun": null,
+    "data": {
+        "name": "邓超",
+        "tel": "18513713287",
+        "job": "普通编辑",
+        "caption": "备份数据",
+        "avatar": "http://pic.vcg.cn/bigimg/800bigwater/12689000/536907363.jpg"
+    }
+}

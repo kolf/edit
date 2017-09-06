@@ -1,0 +1,45 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "imageState": 3,
+            "createdTime": "2012-11-24 22:22:07",
+            "firstUrl": "http://pic.vcg.cn/bigimg/800bigwater/15760000/gic15760169.jpg",
+            "id": 50009877,
+            "oss176": "editorial/bank9/img13/midimg/50009000/tmb50009877.jpg",
+            "resId": "0101050009877",
+            "onlineState": 2
+        },
+        {
+            "imageState": 3,
+            "createdTime": "2012-11-24 22:22:10",
+            "firstUrl": "http://pic.vcg.cn/bigimg/800bigwater/15760000/gic15760169.jpg",
+            "id": 50009880,
+            "oss176": "editorial/bank9/img13/midimg/50009000/tmb50009880.jpg",
+            "resId": "0101050009880",
+            "onlineState": 2
+        },
+        {
+            "imageState": 3,
+            "createdTime": "2012-11-24 22:22:36",
+            "firstUrl": "http://pic.vcg.cn/bigimg/800bigwater/15760000/gic15760169.jpg",
+            "id": 50009900,
+            "oss176": "editorial/bank9/img13/midimg/50009000/tmb50009900.jpg",
+            "resId": "0101050009900",
+            "onlineState": 2
+        },
+        {
+            "imageState": 3,
+            "createdTime": "2012-11-24 22:22:38",
+            "firstUrl": "http://pic.vcg.cn/bigimg/800bigwater/15760000/gic15760169.jpg",
+            "id": 50009901,
+            "oss176": "editorial/bank9/img13/midimg/50009000/tmb50009901.jpg",
+            "resId": "0101050009901",
+            "onlineState": 2
+        }
+    ],
+    "message": null,
+    "error": null,
+    "type": 0,
+    "fun": null
+}

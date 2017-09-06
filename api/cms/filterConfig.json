@@ -1,0 +1,63 @@
+{
+  "code": 200,
+  "success": true,
+  "message": "",
+  "error": "",
+  "type": "",
+  "fun": "",
+  "data": {
+    "categories" : ["国内","国际","财经","体育","娱乐","时尚","科技","旅游","图表", "漫画", "历史", "肖像", "故事", "插画", "滚动", "最佳"],
+    "brands" : ["500px", "corbis", "splash", "sinoimage", "蓝牛仔"],
+    "feFilter": {
+      "list": [
+        {
+          "name" : "筛选主分类",
+          "content": ["梯台走秀", "精彩瞬间", "最佳进球", "最佳射手"],
+          "sequence" : "1",
+          "fetch": true
+        },
+        {
+          "name" : "入库时间",
+          "content": ["2016-2-6", "2016-3-6"],
+          "sequence" : "2",
+          "fetch": false
+        },
+        {
+          "name" : "分类",
+          "content": ["体育", "娱乐"],
+          "sequence" : "3",
+          "fetch": true
+        },
+        {
+          "name" : "照片等级",
+          "content": ["A", "B"],
+          "fetch": false
+        },
+        {
+          "name" : "品牌",
+          "content": ["500px", "corbis", "splash", "sinoimage"],
+          "sequence" : "4",
+          "fetch": true
+        },
+        {
+          "name" : "地点",
+          "content": ["美国", "加拿大", "英国", "菲律宾"],
+          "sequence" : "5",
+          "fetch": true
+        },
+        {
+          "name" : "人名",
+          "content": ["李雯", "范冰冰", "李晨", "成龙"],
+          "sequence" : "6",
+          "fetch": true
+        },
+        {
+          "name" : "糗事瞬间",
+          "content": ["走秀", "摔跤", "打架", "狂笑"],
+          "sequence" : "7",
+          "fetch": true
+        }
+      ]
+    }
+  }
+}

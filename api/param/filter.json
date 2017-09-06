@@ -1,0 +1,274 @@
+{
+    "code": 200,
+    "data": {
+        "agency": [
+            {
+                "nameCn": "ITAR-TASS Photo Agency",
+                "id": 43195
+            },
+            {
+                "nameCn": "CORBIS - SPLASH NEWS",
+                "id": 43196
+            },
+            {
+                "nameCn": "redux",
+                "id": 43197
+            },
+            {
+                "nameCn": "Newscom",
+                "id": 43198
+            },
+            {
+                "nameCn": "Polars Images",
+                "id": 43199
+            },
+            {
+                "nameCn": "Maxppp photo press agency",
+                "id": 43200
+            },
+            {
+                "nameCn": "Marcamedia",
+                "id": 43201
+            },
+            {
+                "nameCn": "Album-online",
+                "id": 43202
+            },
+            {
+                "nameCn": "Yonhap News Agency",
+                "id": 43203
+            },
+            {
+                "nameCn": "FocusAgency",
+                "id": 43204
+            },
+            {
+                "nameCn": "Aflo",
+                "id": 43205
+            },
+            {
+                "nameCn": "Barcroft Media Ltd（BM）",
+                "id": 43206
+            },
+            {
+                "nameCn": "Canadianpress",
+                "id": 43207
+            },
+            {
+                "nameCn": "NYTphotos",
+                "id": 43208
+            },
+            {
+                "nameCn": "Africanonline",
+                "id": 43209
+            },
+            {
+                "nameCn": "Solent News and Photo Agency",
+                "id": 43210
+            },
+            {
+                "nameCn": "RNA",
+                "id": 43211
+            },
+            {
+                "nameCn": "Eyevine",
+                "id": 43212
+            },
+            {
+                "nameCn": "NISyndication",
+                "id": 43213
+            },
+            {
+                "nameCn": "Narratives",
+                "id": 43214
+            }
+        ],
+        "photographer": [
+            {
+                "nameCn": "程铁良",
+                "id": 200008
+            },
+            {
+                "nameCn": "李建泉",
+                "id": 200009
+            },
+            {
+                "nameCn": "柴继军",
+                "id": 200010
+            },
+            {
+                "nameCn": "李洁军",
+                "id": 200011
+            },
+            {
+                "nameCn": "王景春",
+                "id": 200012
+            },
+            {
+                "nameCn": "余海波",
+                "id": 200013
+            },
+            {
+                "nameCn": "陈远忠",
+                "id": 200014
+            },
+            {
+                "nameCn": "邱焰",
+                "id": 200015
+            },
+            {
+                "nameCn": "田飞",
+                "id": 200016
+            },
+            {
+                "nameCn": "袁景志",
+                "id": 200017
+            },
+            {
+                "nameCn": "周寅杰",
+                "id": 200018
+            },
+            {
+                "nameCn": "吴正中",
+                "id": 200019
+            },
+            {
+                "nameCn": "扬子晚报上传",
+                "id": 200020
+            },
+            {
+                "nameCn": "陈杰（北京）",
+                "id": 200021
+            },
+            {
+                "nameCn": "江菲",
+                "id": 200026
+            },
+            {
+                "nameCn": "杨寰",
+                "id": 200030
+            },
+            {
+                "nameCn": "吕枫",
+                "id": 200036
+            },
+            {
+                "nameCn": "鲍利辉",
+                "id": 200038
+            },
+            {
+                "nameCn": "王鸿光",
+                "id": 200051
+            },
+            {
+                "nameCn": "蔡晓智",
+                "id": 200055
+            }
+        ],
+        "category": [
+            {
+                "id": 220720,
+                "name": "生活",
+                "pid": 0,
+                "code": "13767"
+            },
+            {
+                "id": 220677,
+                "name": "故事",
+                "pid": 0,
+                "code": "9584"
+            },
+            {
+                "id": 220671,
+                "name": "时尚",
+                "pid": 0,
+                "code": "9063"
+            },
+            {
+                "id": 220654,
+                "name": "历史",
+                "pid": 0,
+                "code": "4515"
+            },
+            {
+                "id": 220646,
+                "name": "公关稿件",
+                "pid": 0,
+                "code": "3940"
+            },
+            {
+                "id": 220641,
+                "name": "肖像",
+                "pid": 0,
+                "code": "3916"
+            },
+            {
+                "id": 220639,
+                "name": "海外",
+                "pid": 0,
+                "code": "3905"
+            },
+            {
+                "id": 220638,
+                "name": "娱乐",
+                "pid": 0,
+                "code": "3903"
+            },
+            {
+                "id": 220637,
+                "name": "体育",
+                "pid": 0,
+                "code": "3902"
+            },
+            {
+                "id": 220636,
+                "name": "财经",
+                "pid": 0,
+                "code": "3901"
+            },
+            {
+                "id": 220635,
+                "name": "国际新闻",
+                "pid": 0,
+                "code": "3900"
+            },
+            {
+                "id": 220634,
+                "name": "国内新闻",
+                "pid": 0,
+                "code": "3899"
+            }
+        ],
+        "user": [
+            {
+                "id": 1,
+                "name": "kangmg",
+                "gender": 1,
+                "userCenterId": "12",
+                "status": 1,
+                "depart": null,
+                "job": null,
+                "mobile": null,
+                "createdTime": null
+            },
+            {
+                "id": 2,
+                "name": "duguifang",
+                "gender": 1,
+                "userCenterId": "12",
+                "status": 1,
+                "depart": null,
+                "job": null,
+                "mobile": null,
+                "createdTime": null
+            }
+        ],
+        "column": [
+            
+        ]
+    },
+    "message": null,
+    "error": null,
+    "type": 0,
+    "fun": null
+}

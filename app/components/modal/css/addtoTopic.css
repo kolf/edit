@@ -1,0 +1,47 @@
+/*addtotopic*/
+
+.addToTopic .ant-select {
+    width: calc(100% - 300px);
+}
+
+.addToTopic ul.promoteList {
+    list-style: none;
+    width: 100%;
+    margin-top: 13px;
+    zoom: 1;
+    border: 1px dotted #ccc;
+    border-radius: 5px;
+    padding: 12px 12px 0;
+}
+
+.addToTopic ul.promoteList:after {
+    clear: both;
+    content: '.';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.addToTopic ul.promoteList li {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.addToTopic ul.promoteList li:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+
+/*transition*/
+
+.addToTopic ul.promoteList li {
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    transition: all 200ms linear;
+}

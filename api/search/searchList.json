@@ -1,0 +1,63 @@
+{
+  "code": 200,
+  "data": {
+    "customer": [
+        {
+            "id": "2342",
+            "contractTitle": "新东方科技",
+            "contractModelType": "1"
+        },
+        {
+            "id": "2342",
+            "contractTitle": "新东方教育",
+            "contractModelType": "1"
+        },
+        {
+            "id": "2342",
+            "contractTitle": "新东方科技",
+            "contractModelType": "1"
+        },
+        {
+            "id": "2342",
+            "contractTitle": "新浪",
+            "contractModelType": "1"
+        },
+        {
+            "id": "2342",
+            "contractTitle": "新浪娱乐",
+            "contractModelType": "1"
+        }
+    ],
+    "constract": [
+        {
+            "id": "2342",
+            "contractTitle": "新东方科技1",
+            "contractModelType": "1"
+        },
+        {
+            "id": "2342",
+            "contractTitle": "新东方教育1",
+            "contractModelType": "1"
+        },
+        {
+            "id": "2342",
+            "contractTitle": "新东方科技1",
+            "contractModelType": "1"
+        },
+        {
+            "id": "2342",
+            "contractTitle": "新浪",
+            "contractModelType": "1"
+        },
+        {
+            "id": "2342",
+            "contractTitle": "新浪娱乐",
+            "contractModelType": "1"
+        }
+    ]
+  },
+  "message": null,
+  "error": null,
+  "type": 0,
+  "fun": null
+}

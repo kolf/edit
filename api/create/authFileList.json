@@ -1,0 +1,14 @@
+{
+	"code":200,
+	"total":123,
+	"data":[{
+		"seq":1,
+		"filename":"aaa.jpg",
+		"fileSrc":"http://bj-feiyuantu.oss-cn-beijing.aliyuncs.com/creative/vcg/176/new/37495065d9514e4c8057ad4b5b9a4aa2.jpg",
+		"confirmed":false
+	},{
+		"seq":2,
+		"filename":"bbb.jpg",
+		"fileSrc":"http://bj-feiyuantu.oss-cn-beijing.aliyuncs.com/creative/vcg/176/new/7f60e71831e74b3e81b13e856236082f.jpg"
+	}]
+}

@@ -1,0 +1,56 @@
+.skin-3.no-skin{
+	background-color: #eceef3;
+}
+
+.vcg-login{
+	margin:0 auto;
+	width: 1440px;
+	background-color: #eceef3;
+	/*background-image: url('./login-bg.jpg');*/
+}
+
+.vcg-login .login-head{
+	/*height:60px;*/
+}
+
+.vcg-login .login-head h4{
+	margin-top:20px;
+	margin-left:80px;
+}
+
+.vcg-login .login-layout{
+	position:relative;
+	height: 600px;
+}
+
+.vcg-login .login-container{
+	position: absolute;
+	top:108px;
+	right:109px;
+	opacity:0.94;
+	background:#ffffff;
+	border-radius:6px;
+	width:400px;
+	height:385px;
+}
+
+
+.vcg-login .login-container form{
+	width:340px;
+	margin:0 auto;
+}
+.vcg-login .login-container form h4{
+	margin:51px 0 20px 0;
+	font-size:16px;
+	color:black;
+}
+
+.vcg-login .login-container form .btn-primary{
+	background:#1d9aca;
+}
+.vcg-login .login-footer{
+	margin:50px;
+	font-size:14px;
+	color:#4a4a4a;
+	text-align:center;
+}

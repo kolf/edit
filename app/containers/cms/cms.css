@@ -1,0 +1,120 @@
+.fr{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.filterSelect {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+.filterSelect li {
+	width:100px;
+	float:left;
+	cursor:pointer;
+}
+.actived {
+	background-color:red;
+}
+.alignRight{
+	text-align: right;
+}
+.alignCenter{
+	text-align: center;
+}
+.recommend{
+	background-color: #2baee9;
+}
+.recommendBtn{
+	position: absolute;
+	top: 45%;
+	right: 10%;
+	background-color: grey;
+}
+.recommendBtn.actived{
+	background-color: orange;
+}
+.stepBtn{
+	min-width: 100px;
+	height: 50px;
+}
+.topSteps {
+	position:absolute;
+	right: 0;
+	z-index: 1;
+}
+.bottomSteps {
+	float: right;
+}
+.ant-upload-list{
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.addTagBtn {
+	width: 15%;
+	height: 50px;
+}
+.deleteBtn {
+	float: right;
+	background-color: red;
+	color: #FFF;
+}
+.topic_box{
+	border: 1px dotted #785;
+    width: 30%;
+    min-width: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.topic_box > div
+{
+	height: 30px;
+	margin-left: 10px;
+}
+.topic_box > i{
+	line-height: 30px;
+	margin-top: 8px
+}
+
+.topic_box .box_firsttr {
+	display: flex;
+}
+.ml_50{
+	margin-left: 50px !important;
+}
+.ml_10{
+	margin-left: 10px !important;
+}
+.ml_5{
+	margin-left: 5px !important;
+}
+.mt_8{
+	margin-top: 8px;
+}
+.topic_box .btn_save_linkage{
+	background-color: #87b87f!important;
+    padding: 2px 5px;
+    margin-left: 10px;
+    width: 70px;
+}
+.filter_active{
+	border-bottom: 2px solid #f84949;
+    margin-bottom: 10px;
+    cursor: pointer
+}
+.topic_box >a:hover{
+	text-decoration: none
+
+}
+.topic_box>input{
+	height: 25px;
+}
+.filter_delete{
+	height: 16px;
+    width: 16px;
+}

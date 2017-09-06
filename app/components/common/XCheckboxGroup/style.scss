@@ -1,0 +1,16 @@
+.checkbox-group~.checkbox-group {
+    border-top: 1px solid #eee
+}
+
+.checks-btn{
+    margin-left: 3px !important;
+    .ant-checkbox{
+        display: none
+    }
+    .ant-checkbox-checked~span{
+        color: #108ee9
+    }
+    .ant-checkbox-wrapper{
+        margin-bottom: 0
+    }
+}

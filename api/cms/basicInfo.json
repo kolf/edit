@@ -1,0 +1,67 @@
+{
+  "code": 200,
+  "success": true,
+  "message": "",
+  "error": "",
+  "type": "",
+  "fun": "",
+  "data": {
+    "thumbnail": {
+      "list": [
+        {
+          "title_cn": "哈哈",
+          "keyword": "aaa",
+          "onlineDate": "2016-02-24",
+          "live": true
+        }
+      ]
+    },
+    "coverPic": {
+      "list": [
+        {
+          "coverPic" : "http://pic.vcg.cn/bigimg/800bigwater/16487000/gic16487549.jpg",
+          "column": "编辑",
+          "categories": "体育",
+          "url": "aa/bb/c.d"
+        }
+      ]
+    },
+    "banner": {
+      "list": [
+        {
+          "banner" : "http://pic.vcg.cn/bigimg/800bigwater/16487000/gic16487549.jpg",
+          "title": "2016欧洲杯",
+          "link": "www.vcg.com"
+        }
+      ]
+    },
+    "manualTopic": {
+      "list": [
+        {
+          "sequence" : 1,
+          "pic" : "http://pic.vcg.cn/bigimg/800bigwater/16487000/gic16487549.jpg",
+          "title" : "2016欧洲杯",
+          "link" : "www.vcg.com"
+        },
+        {
+          "sequence" : 2,
+          "pic" : "http://pic.vcg.cn/bigimg/800bigwater/16487000/gic16487549.jpg",
+          "title" : "2016亚洲杯",
+          "link" : "www.vcg.com"
+        },
+        {
+          "sequence" : 3,
+          "pic" : "http://pic.vcg.cn/bigimg/800bigwater/16487000/gic16487549.jpg",
+          "title" : "2016非洲杯",
+          "link" : "www.vcg.com"
+        },
+        {
+          "sequence" : 4,
+          "pic" : "http://pic.vcg.cn/bigimg/800bigwater/16487000/gic16487549.jpg",
+          "title" : "2016美洲杯",
+          "link" : "www.vcg.com"
+        }
+      ]
+    }
+  }
+}

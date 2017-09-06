@@ -1,0 +1,46 @@
+{
+  "code": 200,
+  "success": true,
+  "message": "",
+  "error": "",
+  "type": "",
+  "fun": "",
+  "data": [
+    {
+        "code": "string",
+        "createdTime": "2016-06-13T10:02:56.025Z",
+        "id": 0,
+        "name": "收藏夹1",
+        "orders": 0,
+        "status": 0,
+        "userId": 0
+    },
+    {
+        "code": "string",
+        "createdTime": "2016-06-13T10:02:56.025Z",
+        "id": 2,
+        "name": "收藏夹2",
+        "orders": 0,
+        "status": 0,
+        "userId": 0
+    },
+    {
+        "code": "string",
+        "createdTime": "2016-06-13T10:02:56.025Z",
+        "id": 3,
+        "name": "收藏夹3",
+        "orders": 0,
+        "status": 0,
+        "userId": 0
+    },
+    {
+        "code": "string",
+        "createdTime": "2016-06-13T10:02:56.025Z",
+        "id": 4,
+        "name": "收藏夹4",
+        "orders": 0,
+        "status": 0,
+        "userId": 0
+    }
+  ]
+}

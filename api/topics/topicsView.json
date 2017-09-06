@@ -1,0 +1,87 @@
+{
+  "code": 200,
+  "success": true,
+  "message": "",
+  "error": "",
+  "type": "",
+  "fun": "",
+  "data": {
+    "pages": 5,
+    "topics": {
+      "topicsId": 1,
+      "parentTopicsId":1232,
+      "title": "我的专题",
+      "category": "国内新闻",
+      "createdTime": "2015/05/19 12:30",
+      "addTime": "2015/05/20 11:30"
+    },
+    "list": [
+      {
+        "groupId": 1,
+        "title": "我的名字1",
+        "firstResId": "meteorshower2.jpg",
+        "resCount": 23,
+        "createdTime": "2015/05/19",
+        "editingTime": "2015/06/21",
+        "provider": "北京视觉中国有限公司",
+        "collection": "视觉",
+        "editor": "阿Q"
+      },
+      {
+        "groupId": 2,
+        "title": "我的名字2",
+        "firstResId": "meteorshower2.jpg",
+        "resCount": 23,
+        "createdTime": "2015/05/19",
+        "editingTime": "2015/06/21",
+        "provider": "北京视觉中国有限公司",
+        "collection": "视觉",
+        "editor": "阿Q"
+      },
+      {
+        "groupId": 3,
+        "title": "我的名字3",
+        "firstResId": "meteorshower2.jpg",
+        "resCount": 23,
+        "createdTime": "2015/05/19",
+        "editingTime": "2015/06/21",
+        "provider": "北京视觉中国有限公司",
+        "collection": "视觉",
+        "editor": "阿Q"
+      },
+      {
+        "groupId": 4,
+        "title": "我的名字4",
+        "firstResId": "meteorshower2.jpg",
+        "resCount": 23,
+        "createdTime": "2015/05/19",
+        "editingTime": "2015/06/21",
+        "provider": "北京视觉中国有限公司",
+        "collection": "视觉",
+        "editor": "阿Q"
+      },
+      {
+        "groupId": 5,
+        "title": "我的名字5",
+        "firstResId": "meteorshower2.jpg",
+        "resCount": 23,
+        "createdTime": "2015/05/19",
+        "editingTime": "2015/06/21",
+        "provider": "北京视觉中国有限公司",
+        "collection": "视觉",
+        "editor": "阿Q"
+      },
+      {
+        "groupId": 6,
+        "title": "我的名字6",
+        "firstResId": "meteorshower2.jpg",
+        "resCount": 23,
+        "createdTime": "2015/05/19",
+        "editingTime": "2015/06/21",
+        "provider": "北京视觉中国有限公司",
+        "collection": "视觉",
+        "editor": "阿Q"
+      }
+    ]
+  }
+}

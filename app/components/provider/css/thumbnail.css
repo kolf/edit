@@ -1,0 +1,11 @@
+/*storage icon*/
+.tip.fa{font-size: 20px;cursor: pointer; margin:5px 8px 0 0; color: #888}
+.sortable-ghost {opacity:.2;}
+.group-list-sort .custom-image{cursor: move;cursor: -webkit-grabbing;  /* overrides 'move' */}
+.thumbnail-loading{
+    background: rgba(0,0,0,0.05);
+    height: 300px;
+    border-radius: 4px;
+    margin: 0 0 15px;
+}
+.sis{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}

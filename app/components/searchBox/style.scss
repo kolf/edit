@@ -1,0 +1,266 @@
+$gray: #e5e5e5;
+$parmary: #b74635;
+
+label{
+    font-size: 12px !important;
+}
+
+.ant-btn,.ant-tag,.ant-tooltip-inner,.ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab,.ant-input-group-addon{
+  border-radius: 0 !important;
+}
+
+.radio-tag-container{
+  display: inline-block;
+  .ant-radio-button-wrapper{
+    box-shadow:none !important;
+    border:none !important;
+    margin-right:10px;
+    &>*{
+      box-shadow:none;
+      border:none !important;
+    }
+    &>-checked{
+      //color: red !important;
+    }
+  }
+  .ant-radio-button-wrapper-checked{
+    font-weight:700;
+  }
+  &.tag-group-container{
+      border-top: 1px dashed #e5e5e5;
+      display: block;
+
+  }
+}
+.filter {
+    &-container{
+
+    }
+  &-box {
+    border:1px solid $gray;
+    padding: 10px 24px;
+    .ant-form-item{
+      label{
+        font-size: 12px;
+      }
+      margin-bottom:5px;
+      border-bottom: 1px dashed $gray;
+      &-label{
+        &>label{
+          font-weight: 700;
+        }
+      }
+      &-control{
+        padding-right:50px;
+        .checkbox-toggle-btn{
+          border-radius: 0;
+          position: absolute;
+          right: 0px;
+          top:5px;
+        }
+        //line-height:40px;
+      }
+    }
+
+    .ant-select-show-search, .ant-checkbox-group{
+      margin-left:10px;
+    }
+    .ant-select-selection{
+      border-radius: 0;
+      // position: relative;
+      // top:3px;
+    }
+    .ant-radio-group{
+      padding-bottom:5px;
+    }
+  }
+  &-bar{
+    position: relative;
+    height: 31px;
+    //line-height:30px;
+    padding-right:100px;
+    margin-bottom: 10px;
+    border-bottom:1px solid $gray;
+    .ant-btn{
+      //padding: 2px 15px;
+    }
+  }
+  &-tools{
+    position: absolute;
+    right: 0;
+    top: 0px;
+  }
+}
+
+.rss{
+  &-bar{
+    position: relative;
+    padding:0 50px 0 0;
+    .create-rss-btn{
+      position: absolute;
+      right: 3px;
+      top: 3px;
+    }
+    .to{
+      &-title{
+        position: absolute;
+        left: 0;
+        top: 2px;
+        .anticon{
+          font-size: 18px;
+          position: relative;
+          top: 2px;
+        }
+      }
+      &-list{
+        width: 100%;
+        &-item{
+          max-width:5%;
+          position: relative;
+          font-size: 0;
+          padding:0 20px 0 8px;
+          display: inline-block;
+          overflow: hidden;
+          height: 22px;
+          line-height: 22px;
+          color: #fff;
+          cursor:pointer;
+          border-right: 4px solid #fff;
+          .anticon{
+              font-size: 14px;
+            position:absolute;
+            right:0px;
+            top:0px;
+            width:20px;
+            height: 20px;
+            line-height: 22px;
+          }
+        }
+        span{
+          font-size: 12px;
+          height: 22px;
+          display: inline-block;
+          overflow: hidden;
+        }
+        .ant-tag{
+          margin: 0;
+          &-text{
+            display: inline-block;
+            height: 20px;
+            overflow: hidden;
+          }
+          .anticon{
+            position: absolute;
+            right: 2px;
+            top: 5px;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+.search{
+  &-bar{
+    //text-align: center;
+    padding: 20px 0 0;
+
+    *:focus{
+      outline: none
+    }
+
+    .ant-input-lg{
+      border:4px solid #2db7f5;
+      height:40px;
+      padding-left: 10px;
+    }
+    .ant-input-group{
+      .ant-input-lg{
+        height: 32px
+      }
+    }
+
+    .ant-input-group-addon{
+        padding: 0 !important;
+        .ant-dropdown-link{
+            padding: 10px 12px 9px 15px;
+            display: inline-block;
+            min-width: 80px
+        }
+    }
+  }
+  &-clear{
+      position: absolute;
+      z-index: 100;
+      left: 475px;
+      top: 13px;
+      font-size: 14px;
+      color: #ccc;
+      cursor: pointer;
+  }
+  &-container{
+    width: 700px;
+    color: #666;
+    display: inline-block;
+    .ant-tabs-bar{
+      margin-bottom:-1px;
+    }
+    .ant-input-group{
+      border: 4px solid $parmary;
+      .ant-input{
+        border:none;
+        font-size: 12px;
+        padding-left: 10px;
+      }
+      .ant-select-selection,.ant-input-group-addon{
+        border:none
+      }
+      .ant-select-selection{
+        border-radius: 0;
+      }
+    }
+    .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active{
+      color: #eee;
+      border-color: $parmary;
+      background-color: $parmary;
+    }
+    .srarch-btn{
+      width: 100%;
+      padding: 8px 15px 9px;
+      background-color: $parmary;
+      color: #eee;
+      font-weight: 700;
+      border-color: $parmary;
+      font-size: 14px;
+    }
+  }
+  &-hots{
+    text-align: left;
+    padding-top: 5px;
+    &>span{
+      display: inline-block;
+      margin-right: 10px;
+      cursor: pointer;
+
+      &:hover{
+        color: $parmary;
+      }
+    }
+  }
+}
+
+.sleect-clear-btn{
+  &.active{
+    color: $parmary;
+    font-weight: 700;
+  }
+}
+
+.ant-tooltip-inner{
+  word-break: break-all;
+}
+
+.downloadTable{
+    min-width: 1190px;
+}

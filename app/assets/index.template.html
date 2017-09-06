@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="zh-cn" class="ie6" {% if(o.htmlWebpackPlugin.files.manifest) { %} manifest="{%= o.htmlWebpackPlugin.files.manifest %}" {% } %}> <![endif]-->
+<!--[if IE 7 ]>    <html lang="zh-cn" class="ie7" {% if(o.htmlWebpackPlugin.files.manifest) { %} manifest="{%= o.htmlWebpackPlugin.files.manifest %}" {% } %}> <![endif]-->
+<!--[if IE 8 ]>    <html lang="zh-cn" class="ie8" {% if(o.htmlWebpackPlugin.files.manifest) { %} manifest="{%= o.htmlWebpackPlugin.files.manifest %}" {% } %}> <![endif]-->
+<!--[if IE 9 ]>    <html lang="zh-cn" class="ie9" {% if(o.htmlWebpackPlugin.files.manifest) { %} manifest="{%= o.htmlWebpackPlugin.files.manifest %}" {% } %}> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="zh-cn" class="" {% if(o.htmlWebpackPlugin.files.manifest) { %} manifest="{%= o.htmlWebpackPlugin.files.manifest %}"{% } %}> <!--<![endif]-->
+<meta http-equiv="Pragma" contect="no-cache">
+<!--<meta http-equiv="Cache-Control" contect="no-cache">-->
+<!--<meta http-equiv="Expires" contect="0">-->
+<head>
+  <meta charset="utf-8">
+  <title>{%= o.htmlWebpackPlugin.options.title || 'Webpack App'%}</title>
+  {% if (o.htmlWebpackPlugin.files.favicon) { %}
+  <link rel="shortcut icon" href="{%= o.htmlWebpackPlugin.files.favicon %}">
+  {% } %}
+  {% if (o.htmlWebpackPlugin.options.mobile) { %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% } %}
+  {% for (var css in o.htmlWebpackPlugin.files.css) { %}
+  <link href="{%= o.htmlWebpackPlugin.files.css[css] %}" rel="stylesheet">
+  {% } %}
+</head>
+<body class="no-skin skin-3">
+  <!--
+    Use a container for rendering and trashing the React App otherwise
+    other libs that might require to attach something to the dom could
+    end up getting its nodes detached or trashed due to react rendering
+  -->
+  <div id="vcgApp"></div>
+
+  {% for (var chunk in o.htmlWebpackPlugin.files.chunks) { %}
+    <script src="{%= o.htmlWebpackPlugin.files.chunks[chunk].entry %}"></script>
+  {% } %}
+</body>
+</html>

@@ -1,0 +1,28 @@
+.btn-link{
+    background: transparent;
+    border: none
+}
+.often-list{
+    display: block;
+    // .ant-radio-inner{
+    //     display: none
+    // }
+    // .ant-radio-wrapper-checked{
+    //     span{
+    //         color: #108ee9
+    //     }
+    // }
+    a{
+        display: inline-block;
+        padding: 0 12px;
+        color: #666;
+        &:hover{
+            color: #108ee9
+        }
+    }
+    
+}
+
+.checks-btn{
+    display: inline-block !important
+}

@@ -1,0 +1,19 @@
+.ant-input-affix-wrapper {
+    position: relative;
+    .ant-input-suffix {
+        width: 28px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center
+    }
+    .ant-input{
+        padding-right: 24px;
+        border-radius: 3px !important;
+    }
+}
+
+.search-list{
+    
+}
